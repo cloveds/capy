@@ -1,0 +1,5 @@
+print("hi");
+
+func foo() {
+    return "deez nuts"
+}
