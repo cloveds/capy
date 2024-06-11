@@ -1,5 +1,11 @@
-print("hi");
-
-func foo() {
-    return "deez nuts"
+struct Foo {
+    bar: String, 
 }
+
+func bar(capy: Foo) {
+    print(capy.bar)  
+}
+
+cd = Foo("hi")
+
+bar(cd)
